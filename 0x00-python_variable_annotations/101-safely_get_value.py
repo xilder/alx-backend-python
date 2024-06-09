@@ -2,16 +2,17 @@
 """
 Defines the annotated function safely_get_value
 """
-from typing import TypeVar, Sequence, Union, Any
+from typing import TypeVar, Mapping, Union, Any
 
 
 T = TypeVar("T")
 
 
 def safely_get_value(
-    dct: Sequence[T],
-    key: T, default: Union[T, Any] = None
-    ) -> Union[T, None]:
+    dct: Mapping[T],
+    key: Any,
+    default: Union[T, None] = None
+    ) -> Union[T, Any]:
     """
     Returns a value from a dictionary if it exists,
     else returns None
