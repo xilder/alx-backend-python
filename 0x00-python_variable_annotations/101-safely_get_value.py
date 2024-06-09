@@ -12,7 +12,7 @@ def safely_get_value(
     dct: Mapping,
     key: Any,
     default: Union[T, None] = None
-    ) -> Union[Any, T]:
+) -> Union[Any, T]:
     """
     Returns a value from a dictionary if it exists,
     else returns None
@@ -21,3 +21,4 @@ def safely_get_value(
         return dct[key]
     else:
         return default
+    
