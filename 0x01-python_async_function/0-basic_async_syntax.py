@@ -6,7 +6,7 @@ import random
 import asyncio
 
 
-async def wait_random(max_delay: int=10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """
     an async function that generates a random number
     between 0 and a max_delay
