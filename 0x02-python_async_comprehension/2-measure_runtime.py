@@ -13,5 +13,5 @@ async def measure_runtime() -> int:
     measure_time async function
     """
     start = time()
-    await asyncio.gather(*[async_comprehension() for _ in range(100000)])
+    await asyncio.gather(*[async_comprehension() for _ in range(4)])
     return time() - start
