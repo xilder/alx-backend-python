@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """unit tests for nest_map function"""
 import unittest
 from parameterized import parameterized
