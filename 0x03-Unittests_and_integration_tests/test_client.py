@@ -26,7 +26,6 @@ class TestGithubOrgClient(unittest.TestCase):
             f"https://api.github.com/orgs/{org}"
             )
 
-
     def test_public_repos_url(self) -> None:
         """
         tests the _public_repos_url method
