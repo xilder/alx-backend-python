@@ -34,6 +34,7 @@ class GithubOrgClient:
 
     @memoize
     def repos_payload(self) -> Dict:
+        
         """Memoize repos payload"""
         return get_json(self._public_repos_url)
 
