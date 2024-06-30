@@ -7,7 +7,7 @@ from utils import access_nested_map
 
 class TestAccessNestedMap(unittest.TestCase):
     """unittest class for"""
-    parameterized.expand(
+    @parameterized.expand(
             [
                 ({"a": 1}, ("a",), 1),
                 ({"a": {"b": 2}}, ("a",), {"b": 2}),
