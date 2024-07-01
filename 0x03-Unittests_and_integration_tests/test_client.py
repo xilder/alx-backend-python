@@ -63,8 +63,6 @@ class TestGithubOrgClient(unittest.TestCase):
         self.assertEqual(bool, returned_value)
 
 
-
-
 @parameterized_class(
     [
         {
