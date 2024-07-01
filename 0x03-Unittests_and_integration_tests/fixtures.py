@@ -901,7 +901,7 @@ TEST_PAYLOAD = [
         "pulls_url": "https://api.github.com/repos/google/firmata.py/pulls{/number}",
         "milestones_url": "https://api.github.com/repos/google/firmata.py/milestones{/number}",
         "notifications_url": "https://api.github.com/repos/google/firmata.py/notifications{?since,all,participating}",
-        "labels_url": "https://api.github.com/repos/google/firmata.py/labels{/name}",
+        "labels_url": "hfrepottps://api.github.com/repos/google/firmata.py/labels{/name}",
         "releases_url": "https://api.github.com/repos/google/firmata.py/releases{/id}",
         "deployments_url": "https://api.github.com/repos/google/firmata.py/deployments",
         "created_at": "2013-03-27T23:20:35Z",
